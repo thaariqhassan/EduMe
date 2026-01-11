@@ -2,18 +2,18 @@ import { Link } from "react-router";
 
 function Navbar() {
   return (
-    <div className="flex flex-1 flex-row justify-between items-center px-5 bg-transparent my-2 absolute w-screen">
+    <div className="flex flex-1 flex-row justify-between items-center px-5 bg-transparent my-2 absolute w-screen top-0 left-0">
       <div className="text-2xl text-black">EduMe</div>
       <div className="flex flex-row justify-between items-center min-w-25 w-125 hidden md:flex">
-        <div className="cursor-pointer" style={{ fontFamily: "poppins" }}>
+        <Link to={'/subjects'} className="cursor-pointer" style={{ fontFamily: "poppins" }}>
           Subjects
-        </div>
+        </Link>
         <Link to="/courses" className="cursor-pointer" style={{ fontFamily: "poppins" }}>
           Courses
         </Link>
-        <div className="cursor-pointer" style={{ fontFamily: "poppins" }}>
+        <Link to={'/degrees'} className="cursor-pointer" style={{ fontFamily: "poppins" }}>
           Degrees
-        </div>
+        </Link>
         <div className="cursor-pointer" style={{ fontFamily: "poppins" }}>
           For Business
         </div>

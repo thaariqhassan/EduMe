@@ -7,6 +7,7 @@ import Login from './Login.jsx'
 import Signup from "./Signup.jsx";
 import Courses from './Courses.jsx'
 import Subjects from './Subjects.jsx'
+import Degrees from './Degrees.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -17,6 +18,7 @@ createRoot(document.getElementById('root')).render(
         <Route element={<Signup />} path='/signup'/>
         <Route element={<Courses />} path='/courses'/>
         <Route element={<Subjects />} path='/subjects'/>
+        <Route element={<Degrees />} path='/degrees'/>
       </Routes>
     </BrowserRouter>
   </StrictMode>
