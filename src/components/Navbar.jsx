@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <div className="flex flex-1 flex-row justify-between items-center px-5 bg-transparent my-2 absolute w-screen">
       <div className="text-2xl text-black">EduMe</div>
-      <div className="flex flex-row justify-between items-center min-w-25 w-125">
+      <div className="flex flex-row justify-between items-center min-w-25 w-125 hidden md:flex">
         <div className="cursor-pointer" style={{ fontFamily: "poppins" }}>
           Subjects
         </div>
@@ -24,7 +24,7 @@ function Navbar() {
         </button>
         <Link
           to="/login"
-          className="bg-red-500 text-white rounded-md p-2 cursor-pointer"
+          className="bg-orange-500 text-white rounded-md p-2 cursor-pointer"
         >
           Login
         </Link>
