@@ -6,7 +6,7 @@ function App() {
       <section className="bg-[#F0F0DA] min-h-screen flex items-center justify-center">
         <div className="flex max-w-6xl bg-white rounded-3xl shadow-lg overflow-hidden p-16 min-h-[80vh]">
           <div className="flex flex-col justify-between mr-10">
-            <div className="mb-8 flex flex-col gap-4">
+            <div className="mb-8 flex flex-col gap-8">
               <h1 className="text-6xl">Find the right course for you</h1>
               <h2 className="">
                 See your personalized recommendations based on your interest and
@@ -20,17 +20,17 @@ function App() {
               </div>
             </div>
             <div className="flex gap-8">
-              <div className="flex flex-col bg-amber-200 p-4 rounded-lg justify-center">
-                <div className="">Subjects</div>
-                <div className="">+40</div>
+              <div className="flex flex-col bg-amber-200 py-4 px-8 rounded-lg justify-center text-center border-black border-2">
+                <div className="text-lg">Subjects</div>
+                <div className="text-3xl">+40</div>
               </div>
-              <div className="">
-                <div className="">Subjects</div>
-                <div className="">+40</div>
+              <div className="flex flex-col bg-amber-200 py-4 px-8 rounded-lg justify-center text-center border-black border-2">
+                <div className="text-lg">Subjects</div>
+                <div className="text-3xl">+40</div>
               </div>
-              <div className="">
-                <div className="">Subjects</div>
-                <div className="">+40</div>
+              <div className="flex flex-col bg-amber-200 py-4 px-8 rounded-lg justify-center text-center border-black border-2">
+                <div className="text-lg">Subjects</div>
+                <div className="text-3xl">+40</div>
               </div>
             </div>
           </div>
