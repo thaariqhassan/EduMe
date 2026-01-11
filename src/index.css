@@ -2,4 +2,10 @@
 
 .font-poppins {
   font-family: "Poppins", sans-serif;
+} 
+
+.font-coiny {
+  font-family: "Coiny", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
