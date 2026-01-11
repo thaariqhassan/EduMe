@@ -9,7 +9,7 @@ function Courses() {
         <div className=" w-100 h-10 shadow border border-gray-300 rounded-2xl">
           <input
             className="w-full h-full rounded-2xl px-4"
-            placeholder="Search"
+            placeholder="🔍 Search"
           />
         </div>
         <div className="flex flex-wrap gap-10">

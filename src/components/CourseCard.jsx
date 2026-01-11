@@ -5,7 +5,7 @@ function CourseCard({companyName,logo,title}) {
   return (
     <>
       <Navbar />
-      <div className="flex flex-col h-90 justify-between gap-10 p-2 shadow w-fit  rounded-b-md ">
+      <div className="flex flex-col h-90 justify-between gap-10 p-2 shadow w-fit  rounded-b-md cursor-pointer" onClick={()=>{window.location.href = "https://youtu.be/K5KVEU3aaeQ?si=CMxUwNdqDn563EmC";}}>
         <div className="flex flex-col gap-3">
           <div className="h-50 w-80">
             <img
