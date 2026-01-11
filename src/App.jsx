@@ -10,7 +10,7 @@ function App() {
           <div className="flex flex-col justify-between mr-10">
             <div className="mb-8 flex flex-col gap-10 my-2">
               <h1 className="text-6xl font-semibold">Find the right <span className="text-orange-500">course</span> for you</h1>
-              <h2 className="text-lg w-1/2">
+              <h2 className="text-md w-1/2">
                 See your personalized recommendations based on your interest and
                 goals
               </h2>
@@ -38,8 +38,8 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="">
-            <img src="/image.png" alt="pen" className="size-50" />
+          <div className="w-[30%] justify-center items-center flex rounded-lg">
+            <img src="/image.png" alt="pen" className="size-100" />
           </div>
         </div>
       </section>
