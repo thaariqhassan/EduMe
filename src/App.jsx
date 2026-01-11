@@ -1,8 +1,10 @@
 import { MdArrowOutward } from "react-icons/md";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <>
+      <Navbar/>
       <section className="bg-[#F0F0DA] min-h-screen flex items-center justify-center">
         <div className="flex max-w-6xl bg-white rounded-3xl shadow-lg overflow-hidden p-16 min-h-[80vh]">
           <div className="flex flex-col justify-between mr-10">
